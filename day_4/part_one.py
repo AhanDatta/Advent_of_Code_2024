@@ -16,7 +16,6 @@ def count_occurances(line: np.ndarray, word: str) -> int:
             break
     return num_occ
 
-letter_string = ""
 with open(INPUT_PATH, 'r') as file:
     word_string = file.read()
 

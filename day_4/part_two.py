@@ -1,11 +1,9 @@
 import numpy as np
 
-TARGET_WORD = "XMAS"
 INPUT_PATH = "input.txt"
 
 num_occurances = 0
 
-letter_string = ""
 with open(INPUT_PATH, 'r') as file:
     word_string = file.read()
 
